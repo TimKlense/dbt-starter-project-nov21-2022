@@ -3,6 +3,8 @@
 
 -- asdasd
 -- asdasd
+-- asdasd
+
 
 select *
 from {{ ref('my_first_dbt_model') }}
