@@ -868,5 +868,8 @@
 -- test after unlinkin github
 -- one more test
 -- more-- more
--- more
-select * from {{ ref("my_first_dbt_model") }} where id = 1
+-- more BBreaks
+select * from {{ ref("my_first_dbt_model") }} where id = 1 BREAKS
+BREAKS
+BREAKS
+BREAKS
