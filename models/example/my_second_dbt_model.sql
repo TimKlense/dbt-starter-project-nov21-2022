@@ -872,4 +872,3 @@
 select * from {{ ref("my_first_dbt_model") }} where id = 1 -- Dec 5, 2022 testing
 -- Dec 5, 2022 testing
 -- more BBreaks
-select * from {{ ref("my_first_dbt_model") }} where id = 1 BREAKS
