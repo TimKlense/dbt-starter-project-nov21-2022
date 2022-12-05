@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 -- a
 -- a
 -- a
@@ -872,3 +873,9 @@
 select * from {{ ref("my_first_dbt_model") }} where id = 1 -- Dec 5, 2022 testing
 -- Dec 5, 2022 testing
 -- more BBreaks
+
+-- Use the `ref` function to select from other models - direct change in main
+
+select *
+from {{ ref('my_first_dbt_model') }}
+where id = 1
