@@ -8,7 +8,7 @@ models:
           - name: id
             description: "The primary key for this table"
             tests:
-                - uanaique
+                - unique
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
