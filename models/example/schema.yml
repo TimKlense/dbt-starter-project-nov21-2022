@@ -6,7 +6,7 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: "The primary key for this tableaaaa"
+            description: "The primary key for this atsableaaaa"
             tests:
                 - unique
 
