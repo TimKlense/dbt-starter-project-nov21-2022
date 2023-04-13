@@ -1,8 +1,16 @@
 
 version: 2
 
+groups:
+  - name: qteam
+    owner:
+      name: quality_team
+      email: example@gmail.com
+
 models:
     - name: my_first_dbt_model
+      group: qteam
+      access: public
       description: "A starter dbt model"
       columns:
           - name: id
@@ -11,6 +19,8 @@ models:
                 - unique
 
     - name: my_second_dbt_model
+      group: qteam
+      access: private
       description: "A starter dbt model"
       columns:
           - name: id
