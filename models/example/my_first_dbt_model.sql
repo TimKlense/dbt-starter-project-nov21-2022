@@ -11,12 +11,7 @@
     Try changing "table" to "view" below
        test
       test again
-    may 16sdasdsadsadsadsa
-         asdsaaasadasd
-    asds
-    sadasdasdsa
-    dsdsasasdsasdsads
-    asdaasdssadsa
+    may 17
 */
 
 {{ config(materialized='table') }}
