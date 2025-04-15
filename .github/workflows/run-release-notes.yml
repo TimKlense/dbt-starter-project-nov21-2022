@@ -3,7 +3,7 @@ name: Use Release Notes Workflow
 
 on:
   push:
-    branches: [main]
+    branches: [test-rename-main]
 
 jobs:
   call-shared:
