@@ -1,0 +1,15 @@
+# .github/workflows/run-release-notes.yml
+name: Use Release Notes Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  call-shared:
+    uses: TimKlense/release-notes/.github/workflows/generate-release-notes.yml@main
+    with:
+      repo: TimKlense/release-notes
+      branch: main
+      days: 1
+      dry_run: false
