@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-shared:
-    uses: TimKlense/release-notes/.github/workflows/generate-release-notes.yml@main
+    uses: TimKlense/release-notes/blob/main/.github/workflows/generate-release-notes.yml@main
     with:
       repo: TimKlense/release-notes
       branch: main
